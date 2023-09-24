@@ -1,0 +1,62 @@
+{
+  "contacts": [
+    {
+      "fullName": "علیرضا دبیرزاده",
+      "profilePhoto": "https://img.freepik.com/free-photo/happy-man-standing-beach_107420-9868.jpg",
+      "mobileNumber": 9100961230,
+      "emailAddress": "alirzada77@gmail.com",
+      "job": "برنامه نویس",
+      "group": "1",
+      "id": 1
+    },
+    {
+      "fullName": "مریم مومن",
+      "profilePhoto": "https://app.akharinkhabar.ir/images/2023/08/07/7e1de73a-e69e-4fd1-9cb0-42534f9a600e.jpeg",
+      "mobileNumber": 9121116699,
+      "emailAddress": "m.moamen@gmail.com",
+      "job": "بازیگر",
+      "group": "5",
+      "id": 2
+    },
+    {
+      "fullName": "امیرمحمد بیگناه",
+      "profilePhoto": "https://img.freepik.com/free-photo/portrait-beautiful-mature-blonde-bearded-guy-with-trendy-hairdo-casual-grey-shirt-smiling_176420-15741.jpg",
+      "mobileNumber": 9116665588,
+      "emailAddress": "amirsscv@gmail.com",
+      "job": "سرباز",
+      "group": "2",
+      "id": 3
+    },
+    {
+      "fullName": "محمدحسین اسماعیلی",
+      "profilePhoto": "https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg",
+      "mobileNumber": 9196664477,
+      "emailAddress": "mmdfggs@gmail.com",
+      "job": "برنامه نویس",
+      "group": "1",
+      "id": 4
+    }
+  ],
+  "groups": [
+    {
+      "id": "1",
+      "name": "همکار"
+    },
+    {
+      "id": "2",
+      "name": "دوست"
+    },
+    {
+      "id": "3",
+      "name": "فامیل"
+    },
+    {
+      "id": "4",
+      "name": "سرویس"
+    },
+    {
+      "id": "5",
+      "name": "آشنا"
+    }
+  ]
+}
