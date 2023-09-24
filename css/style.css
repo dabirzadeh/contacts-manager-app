@@ -1,0 +1,135 @@
+@font-face {
+    font-family: "Vazir";
+    src: url("../fonts/Vazir.ttf") format("truetype"),
+        url("../fonts/Vazir.eot") format("embedded-opentype"),
+        url("../fonts/Vazir.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Vazir.woff") format("woff"),
+        url("../fonts/Vazir.woff2") format("woff2");
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+}
+
+:focus-visible {
+    outline: none;
+}
+
+:-webkit-autofill {
+    -webkit-text-fill-color: #f8f8f2;
+    -webkit-box-shadow: 0 0 0 1000px #44475a inset;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+::-webkit-input-placeholder {
+    color: #f8f8f2 !important;
+}
+
+input:focus,
+select:focus {
+    border-color: #bd93f9 !important;
+    box-shadow: 0 0 0 .25rem rgba(189, 147, 249, .25) !important;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.pre-loader {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #44475a;
+    opacity: 70%;
+}
+
+.react-confirm-alert-overlay {
+    background-color: rgba(40, 42, 54, .9) !important;
+}
+
+.form-control {
+    color: #f8f8f2 !important;
+    background-color: #44475a !important;
+    border-color: #bd93f9;
+}
+
+.form-select {
+    padding: 1rem .75rem;
+    color: #f8f8f2;
+    background-color: #44475a;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23f8f8f2' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e");
+    background-position: left .75rem center;
+    border-color: #bd93f9;
+}
+
+a.navbar-brand:hover {
+    color: #bd93f9;
+}
+
+a.btn.create-contact:hover,
+button.btn.delete-button:hover {
+    box-shadow: 0 0 0 0.25rem rgba(80, 250, 123, .25);
+}
+
+a > img.profile-photo:hover {
+    box-shadow: 0 0 0 0.25rem rgba(189, 147, 249, .25);
+}
+
+a.btn.view-contact:hover {
+    box-shadow: 0 0 0 0.25rem rgba(255, 184, 108, .25);
+}
+
+a.btn.return-button:hover {
+    box-shadow: 0 0 0 0.25rem rgba(139, 233, 253, .25);
+}
+
+a.btn.update-contact:hover {
+    box-shadow: 0 0 0 0.25rem rgba(139, 233, 253, .25);
+}
+
+button.btn.delete-contact:hover {
+    box-shadow: 0 0 0 0.25rem rgba(255, 85, 85, .25);
+}
+
+input.btn.create-button:hover {
+    box-shadow: 0 0 0 0.25rem rgba(189, 147, 249, .25);
+}
+
+input.btn.update-button:hover {
+    box-shadow: 0 0 0 0.25rem rgba(255, 184, 108, .25);
+}
+
+a.btn.cancel-button:hover,
+button.btn.cancel-button:hover {
+    box-shadow: 0 0 0 0.25rem rgba(98, 114, 164, .25);
+}
+
+.form-floating > label {
+    height: auto;
+    right: 0;
+    left: unset;
+    color: #f8f8f2;
+    border: 0;
+}
+
+.form-floating > .form-control:focus~label,
+.form-floating > .form-control:not(:placeholder-shown)~label,
+.form-floating > .form-select:focus~label,
+.form-floating >.form-select:not(:placeholder-shown)~label {
+    color: #f8f8f2;
+    opacity: 70%;
+    transform: scale(.85) translateY(-0.65rem) translateX(1rem);
+}
+
+.form-floating > .form-control:focus~label::after,
+.form-floating > .form-control:not(:placeholder-shown)~label::after,
+.form-floating > .form-select:focus~label::after,
+.form-floating > .form-select:not(:placeholder-shown)~label::after {
+    background-color: unset;
+}
